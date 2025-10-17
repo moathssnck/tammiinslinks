@@ -1,0 +1,65 @@
+# robots.txt for https://tammiinslinks.vercel.app/
+# Last updated: 2025-10-17
+# This file tells web crawlers what parts of the site can or cannot be crawled.
+
+# ----------------------------
+# General rules for all crawlers
+# ----------------------------
+User-agent: *
+Disallow: /cgi-bin/
+Allow: /public/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /wp-content/uploads/
+Allow: /
+
+# ----------------------------
+# Sitemap location
+# ----------------------------
+Sitemap: https://tammiinslinks.vercel.app/sitemap.xml
+Sitemap: https://tammiinslinks.vercel.app/blog-sitemap.xml
+
+# ----------------------------
+# Googlebot specific rules
+# ----------------------------
+User-agent: Googlebot
+Disallow: /private/
+Allow: /public/
+Crawl-delay: 10
+
+# ----------------------------
+# Bingbot specific rules
+# ----------------------------
+User-agent: Bingbot
+Disallow: /private/
+Allow: /
+Crawl-delay: 10
+
+# ----------------------------
+# Image crawlers
+# ----------------------------
+User-agent: Googlebot-Image
+Allow: /images/
+
+# ----------------------------
+# Adsbot (Google)
+# ----------------------------
+User-agent: AdsBot-Google
+Allow: /
+
+# ----------------------------
+# Archive.org and other aggressive bots
+# ----------------------------
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# ----------------------------
+# End of file
+# ----------------------------
