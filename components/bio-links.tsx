@@ -14,7 +14,7 @@ import { Shield, Lock, FileText, Link } from "lucide-react";
 export function BioLinks() {
   const [privacyOpen, setPrivacyOpen] = useState(false);
   const [securityOpen, setSecurityOpen] = useState(false);
-  const applink = "https://www.vercel.com";
+  const applink = "https://tblinks.com/";
   const links = [
     {
       icon: Link,

@@ -1,4 +1,4 @@
-# robots.txt for https://tammiinslinks.vercel.app/
+# robots.txt for https://tblinks.com/
 # Last updated: 2025-10-17
 # This file tells web crawlers what parts of the site can or cannot be crawled.
 
@@ -17,8 +17,8 @@ Allow: /
 # ----------------------------
 # Sitemap location
 # ----------------------------
-Sitemap: https://tammiinslinks.vercel.app/sitemap.xml
-Sitemap: https://tammiinslinks.vercel.app/blog-sitemap.xml
+Sitemap: https://tblinks.com/sitemap.xml
+Sitemap: https://tblinks.com/blog-sitemap.xml
 
 # ----------------------------
 # Googlebot specific rules
